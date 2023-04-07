@@ -13,7 +13,7 @@ useEffect(()=>{
  const showhiddescroollbar=()=>{
   console.log(window.innerWidth)
   if(window.scrollY>200&&window.innerWidth >800){
-    handleshow(false)
+    handleshow(true)
   }else{
     handleshow(false)
   }
@@ -38,7 +38,7 @@ useEffect(()=>{
   return (
     <nav className="navigation " id={`${show===true&& "show" }`}>
 <div className="logoimage">
-<img src={logo} alt="" />
+<h1 className=" font-bold text-lg  text-amber-500"> <i>KingsStreeet</i></h1>
 </div>
       <i className="fa-solid fa-bars" onClick={handlenav}></i>
       <ul className={`navigation_ul & ${navigation ? `shownav` : "hidenav"}`}>

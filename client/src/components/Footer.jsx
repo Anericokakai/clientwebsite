@@ -51,10 +51,10 @@ function Footer() {
         </div>
         <div className="footer">
           <h1 className="footerh1">Our socials</h1>
-         <a href=""> <p><i class="fa-brands fa-linkedin"></i>Linkedin</p></a>
-         <a href=""> <p><i class="fa-brands fa-facebook"></i> Facebbok</p></a>
-         <a href=""> <p><i class="fa-brands fa-twitter"></i> twitter</p></a>
-         <a href=""> <p><i class="fa-brands fa-linkedin"></i>Linkedin</p></a>
+         <a target="blank" href="https://www.linkedin.com/login"> <p><i class="fa-brands fa-linkedin"></i>LinkedIn</p></a>
+         <a target="blank" href="https://www.facebook.com/"> <p><i class="fa-brands fa-facebook"></i> Facebook</p></a>
+         <a target="blank" href="https://twitter.com/login?lang=en"> <p><i class="fa-brands fa-twitter"></i> Twitter</p></a>
+
         </div>
         <div className="footer">
           <h1 className="footerh1"> Kingstreet foundation</h1>
@@ -72,7 +72,7 @@ function Footer() {
           </p>
           <p>
             <span className="bold">in Persin</span> 634 Martin Luther King
-            ,Jr.Blvd,N.W{" "}
+            ,Jr.Blvd,N.W
           </p>
         </div>
       </div>

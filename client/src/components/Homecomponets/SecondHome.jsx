@@ -12,7 +12,10 @@ function SecondHome({image,card ,link}) {
     mouseenter ? setmouseenter(false) : setmouseenter(true);
   };
   return (
-   <Link to={link}>
+   <Link to={link}
+   target="blank"
+   
+   >
     <div className="second_card">
       <div className="homeimage" onMouseEnter={handleMouseenter}>
       
