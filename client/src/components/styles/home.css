@@ -1,0 +1,429 @@
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Italianno&family=Lily+Script+One&family=Lobster&family=Montserrat:ital,wght@0,600;0,700;0,800;1,500&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navigation */
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  1em 2em;
+    
+    transition: 2s;
+    z-index: 2;
+  
+   
+}
+
+.navigation_ul{
+    display:  flex;
+    gap:0 1.5em;
+    text-transform: uppercase;
+    z-index: 100;
+}
+.navigation_ul li{
+    cursor: pointer;
+}
+.active{
+    color: red;
+}
+.logo{
+    font-size: 30px;
+
+}
+.fa-xmark ,.fa-bars{
+    visibility: hidden;
+}
+@media (max-width:800px) {
+    .navigation_ul{
+        display: block;
+        position: absolute;
+        right: 0;
+background-color: #438ef2;
+        width: 60%;
+        bottom: 0;
+ transform: scaleX(0);
+        min-height: 100vh;
+    }
+  
+    .navigation_ul li{
+        width: 100%;
+       text-align: center;
+       padding:  1em 0;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .fa-xmark{
+        visibility: visible;
+        padding-left: 1em;
+        padding-top: 1.5em;
+    }
+    .fa-bars{
+        visibility: visible;
+    }
+
+    .hidenav{
+        transform: scaleX(0);
+        transition: .5s ease-in-out;
+    }
+    .shownav{
+        transform: scaleX(1);
+        transition: .5s ease-in-out
+    }
+    
+}
+
+.logoimage{
+    width: 100px;
+    height: 100%;
+}
+.logoimage img{
+    height: 100%;
+}
+
+
+#show{
+    position: fixed;
+    width: 100%;
+    background-color: #438ff259;
+  
+}
+.homenav{
+    color: white;
+}
+
+/* todo home page styling*/
+.Homeholder{
+    background:linear-gradient(rgba(0, 0, 0, 0.687) ,rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.554)),url('../images/pexels-pixabay-164290.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    background-attachment: fixed;
+    width: 100%;
+}
+.homecontainer{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    padding-left: 2em;
+
+}
+.moto{
+    text-align: center;
+    font-size: 30px;
+    color: gold;
+}
+@media (min-width:800px) {
+    .moto{
+        padding-top: 1em;
+        font-size: 40px;
+    }
+    
+}
+
+/* todo below home components */
+.secondHomecontainer{
+    min-height: 110vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+   flex-wrap: wrap;
+gap: 2em;
+padding: 2em 0;
+
+
+   
+}
+ /* !change the styling of the socond home page to grid */
+.secondHomecontainer2{
+ display: grid;
+ justify-content: center;
+ gap: 2em;
+ text-align: center;padding: 2em 0;
+}
+.second_card{
+    transition: .5s all;
+    height: 250px;
+}
+.second_card:hover{
+    transform: scale(1.08);
+}
+@media (min-width:800px) {
+    .secondHomecontainer2{
+        grid-template-columns: 20% 20% 20% 20%;
+    }
+    .second_card{
+        height: 200px;
+      
+    
+    }
+    
+}
+.kingstv{
+    padding-top: 4em;
+    background: none;
+}
+
+/* todo drop down menu with links */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+ 
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+/* todo kings tv hesding */
+.kingshome_title{
+    font-family: 'Lily Script One', cursive;
+letter-spacing: 4px;
+font-weight: 400;
+}
+
+
+/* todo contact me  card styles  */
+
+.helpback_ground{
+   
+    background: linear-gradient(#438ff27e,#438ff270,#438ff285 ),url('../images/pexels-yan-krukau-8867435.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+min-height: 60vh;
+}
+.helpconatiner{
+    display: flex;
+    gap: 4em;
+    padding: 4em 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.helpinfo{
+    font-size: 50px;
+    
+}
+.cutom2{
+    color: white;
+    font-family:  'Poppins',sans-serif;
+    font-weight: 600;
+}
+@media (max-width:800px) {
+    .helpinfo{
+        font-size:30px ;
+    }
+    
+}
+.cutomform{
+    background-color: rgba(0, 0, 0, 0.474);
+    min-height: 20rem;
+}
+
+/* ! footer styling buddy */
+.footercontainer{
+    background-color: #2c2b30;
+    color: #d6d6d6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.footerholder{
+    background-color: #2c2b30;
+    padding: 2em;
+}
+.footerheading{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.footer{
+
+    width: 250px;
+}
+.footerh1{
+    text-transform: uppercase;
+    font-weight: 600;
+
+
+}
+.footer p{
+    font-size: 12px;
+}
+
+.bold{
+    font-weight: 600;
+    text-transform:  uppercase;
+}
+.fa-twitter{
+    color: #d6d6d6;
+}
+.footer i{
+    padding-right: 1em;
+}
+
+/* ! kings backgroound setting for sticky */
+.kigscontainer{
+    background: url('../images/pexels-pixabay-164290.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+}
+/* ! styling for other pages */
+.service{
+    min-height: 10vh;
+    background-position: top;
+}
+.share_your_experince{
+    background: url('../forms/formimages/2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-attachment: fixed;
+}
+.mentoring{
+    background: url('../forms/formimages/2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-attachment: fixed;
+}
+.find_community{
+    background: url('../forms/formimages/3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-attachment: fixed;
+}
+.i_need_help{
+    background: url('../forms/formimages/7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-attachment: fixed;
+}
+.i_can_help{
+    background: url('../forms/formimages/4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  
+    background-attachment: fixed;
+}
+.create_plan{
+    background: url('../forms/formimages/5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  
+    background-attachment: fixed;
+
+}
+.all_about_you{
+
+    background: url('../forms/formimages/1.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    
+    }
+    .abouts{
+        background: none;
+        color: white;
+    }
+    .experinece {
+        color:#438ef2 ;
+    }
+    .icanhelp{
+        color: #438ef2;
+    }
+    @media (max-width:800px) {
+        .icanhelp,.experinece{
+            color: #f1f1f1;
+        }
+        
+    }

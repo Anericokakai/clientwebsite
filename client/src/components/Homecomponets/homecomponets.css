@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.second_cards{
+   width: 100%;
+    height: 200px;
+    transition:  all 1s;
+}
+
+.second_cards:hover{
+    transform: scale(1.08);
+}
+.homeimage{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+.homeimage img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.descritpion{
+    position: absolute;
+    bottom: 0px;
+ opacity: 0;
+  width: 100%;
+  background-color: #74b0ff24;
+  color: white;
+  text-align: center;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: .5s ease-in-out;
+border-radius: 10px;
+
+}
+.descritpion:hover{
+    opacity: 1;
+}
+
+.container{
+    margin-bottom: 4em;
+}
+iframe{
+    border-radius: 10px;
+}
+
+/* !home who you are */
