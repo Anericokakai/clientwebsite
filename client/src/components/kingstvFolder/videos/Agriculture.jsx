@@ -7,7 +7,7 @@ import { categories } from "../../routes/routings";
 function Agriculture() {
   return (
     <div>
-      <div className="Homeholder service">
+      <div className="Homeholder ">
         <Navigation></Navigation>
       </div>
       <div className="flex justify-between items-center min-h-20 px-4 pt-2">
@@ -23,12 +23,24 @@ function Agriculture() {
           </div>
         </div>
       </div>
-      <div className="secondHomecontainer kingstv">
+
+      <div className="secondHomecontainer">
         <Reusable video={'ljV8Fjjc7-A'}></Reusable>
         <Reusable video={'Cxbdwsy88V4'}></Reusable>
         <Reusable video={'vFE-ZNf42i0'}></Reusable>
         <Reusable video={'tboq4_fCLw0'}></Reusable>
         <Reusable video={'QE0Nn6Qx72Q'}></Reusable>
+        <Reusable categories="Agriculture" video="ljV8Fjjc7-A"></Reusable>
+
+<Reusable categories="Agriculture" video="Cxbdwsy88V4"></Reusable>
+<Reusable categories="Agriculture" video="vFE-ZNf42i0"></Reusable>
+<Reusable categories="Agriculture" video="tboq4_fCLw0"></Reusable>
+<Reusable categories="Agriculture" video="QE0Nn6Qx72Q"></Reusable>
+<Reusable categories="Agriculture" video="jT9eTn2qD38"></Reusable>
+<Reusable categories="Agriculture" video="oWwg5utv1zM"></Reusable>
+<Reusable categories="Agriculture" video="c3BjcFPxttQ"></Reusable>
+<Reusable categories="Agriculture" video="jN5DiMtVQio"></Reusable>
+<Reusable categories="Agriculture" video="Ig2xsAoF3ZA"></Reusable>
       </div>
     </div>
   );

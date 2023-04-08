@@ -32,6 +32,7 @@ function Home() {
         </div>
         <div className="homecontainer">
           <div className="luther"></div>
+
           <div className="motocont">
             <h1 className=" text-amber-500">KingStreet</h1>
             <p className="moto">
@@ -57,35 +58,34 @@ function Home() {
             card={card4}
             link={"https://www.my-lifequest.com/login"}
           ></SecondHome>
-              <SecondHome
+          <SecondHome
             image={i2b}
             card={card2}
             link={"http://www.compassaim.com/"}
           ></SecondHome>
-              <SecondHome
+          <SecondHome
             image={i5b}
             card={card3}
             link={"https://www.my-lifequest.com/login"}
           ></SecondHome>
-
 
           <SecondHome
             image={i6b}
             card={card5}
             link={"https://wyb.compassaimsolutions.com/"}
           ></SecondHome>
-       <SecondHome
+          <SecondHome
             image={i8b}
             card={card8}
             link={"/entertainment"}
           ></SecondHome>
-      
+
           <SecondHome
             image={i1b}
             card={card1}
             link={"http://mydaywheel.com/"}
           ></SecondHome>
-         
+
           <SecondHome
             image={i7b}
             card={card6}
@@ -98,10 +98,9 @@ function Home() {
           ></SecondHome>
         </div>
       </div>
-      
+
       <Helppage></Helppage>
-     
-      
+
       <Footer></Footer>
     </div>
   );

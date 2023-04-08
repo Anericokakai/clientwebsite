@@ -5,7 +5,7 @@ import Footer from "./Footer";
 function Services() {
   return (
     <div>
-      <div className="Homeholder service">
+      <div className="Homeholder ">
         <Navigation></Navigation>
       </div>
       <h1 className=" text-2xl pt-2 pl-3 font-bold ">Our Service</h1>

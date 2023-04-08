@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 function Health() {
   return (
     <div>
-      <div className="Homeholder service">
+      <div className="Homeholder ">
         <Navigation></Navigation>
         Agriculture
       </div>
@@ -25,7 +25,7 @@ function Health() {
           </div>
         </div>
       </div>
-      <div className="secondHomecontainer kingstv">
+      <div className="secondHomecontainer ">
       <Reusable video={'HTL2HGMAsb0'}></Reusable>
         <Reusable video={'RKq23CKnnk0'}></Reusable>
         <Reusable video={'1YLSGE8l1vs'}></Reusable>

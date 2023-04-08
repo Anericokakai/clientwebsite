@@ -3,7 +3,7 @@ import YouTube from "react-youtube";
 import getYouTubeID from "get-youtube-id";
 
 import "../Homecomponets/homecomponets.css";
-function Kingstvhome({video}) {
+function Kingstvhome({video,categories}) {
   return (
     <div className="second_cards">
       <div className="homeimage">
@@ -18,7 +18,7 @@ function Kingstvhome({video}) {
             },
           }}
         />
-        <h1>health</h1>
+        <h1 className=" pl-3 font-semibold ">{categories}</h1>
       </div>
     </div>
   );

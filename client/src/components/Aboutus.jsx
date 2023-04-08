@@ -5,7 +5,7 @@ import Footer from "./Footer";
 function Aboutus() {
   return (
     <div>
-       <div className="Homeholder service">
+       <div className="Homeholder">
       <Navigation></Navigation>
       </div>
       <div>

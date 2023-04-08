@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom'
 function Hospitality() {
   return (
     <div>
-            <div className="Homeholder service">
+            <div className="Homeholder ">
       <Navigation></Navigation>
       Agriculture
       </div>
@@ -25,13 +25,21 @@ function Hospitality() {
           </div>
         </div>
       </div>
-         <div className="secondHomecontainer kingstv">
+         <div className="secondHomecontainer ">
             <Reusable video={'2XANbYHov4g'}></Reusable>
             <Reusable video={'vLrLEYE6-dH'}></Reusable>
             <Reusable video={'NFyj-d2fHgQ'}></Reusable>
             <Reusable video={'GrJ66lkVGzE'}></Reusable>
-            <Reusable video={'1KniQUXTWM'}></Reusable>
+
           
+            <Reusable video={'vLrLYE6-dHE'}></Reusable>
+            <Reusable video={'GrJ66lkVGzE'}></Reusable>
+            <Reusable video={'_1KniQUXTWM'}></Reusable>
+            <Reusable video={'DEJrEV7yr4o'}></Reusable>
+            <Reusable video={'to_hR0QJl80'}></Reusable>
+            <Reusable video={'bFm_4cSzG0w'}></Reusable>
+            <Reusable video={'fuWx9ODMx6I'}></Reusable>
+            <Reusable video={'rRoQp0sO3uY'}></Reusable>
             
          </div>
 

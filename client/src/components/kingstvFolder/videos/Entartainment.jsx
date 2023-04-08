@@ -25,7 +25,7 @@ function Entartainment() {
           </div>
         </div>
       </div>
-      <div className="secondHomecontainer kingstv">
+      <div className="secondHomecontainer ">
         <Reusable video={'P9-ttmPqMSk'}></Reusable>
         <Reusable video={'PAGzNTCJ1lw'}></Reusable>
         <Reusable video={'Q0zzZ9sPWjs'}></Reusable>

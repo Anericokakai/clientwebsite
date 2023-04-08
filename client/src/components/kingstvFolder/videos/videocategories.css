@@ -137,20 +137,10 @@ iframe{
 
 
 /* todo below home components */
-.secondHomecontainer{
-    min-height: 90vh;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-   flex-wrap: wrap;
-gap: 2em;
-padding: 2em 0;
- 
-   
-}
-.kingstv{
+
+/* .kingstv{
     padding-top: 4em;
-}
+} */
 
 /* todo drop down menu with links */
 .dropbtn {

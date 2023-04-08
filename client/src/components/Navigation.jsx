@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles/home.css";
-import logo from "./images/logo.png"
+
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { general } from "./routes/routings";
 import { useEffect } from "react";
-
+import logo from "./images/Mtlkng__1_-removebg-preview.png"
 export function Navigation() {
   const[show,handleshow]=useState(false)
 useEffect(()=>{
@@ -36,9 +36,10 @@ useEffect(()=>{
     console.log(navigation);
   };
   return (
+    // <h1 className=" font-bold text-lg  text-amber-500"> <i>KingsStreeet</i></h1>
     <nav className="navigation " id={`${show===true&& "show" }`}>
 <div className="logoimage">
-<h1 className=" font-bold text-lg  text-amber-500"> <i>KingsStreeet</i></h1>
+{/* <img src={logo} alt="" /> */}
 </div>
       <i className="fa-solid fa-bars" onClick={handlenav}></i>
       <ul className={`navigation_ul & ${navigation ? `shownav` : "hidenav"}`}>
