@@ -478,3 +478,30 @@ min-height: 60vh;
 
         }
     }
+    /* !fro testing  */
+     form{
+        display: flex;
+        gap: 1em;
+        width: 70%;
+        flex-wrap: wrap;
+        padding: 1em ;
+    }
+    input{
+        flex: 1 0 130px;
+
+        border: 1px solid green;
+    }
+    input:nth-child(1){
+        padding: 4px 10px;
+    }
+    input:nth-child(2){
+        padding: 4px 10px;
+    }
+    @media (max-width:600px) {
+        input{
+            width: 100%;
+        }
+    }
+    button{
+        flex: 1 0 40px;
+    } 

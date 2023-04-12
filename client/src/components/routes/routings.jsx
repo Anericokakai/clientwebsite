@@ -1,10 +1,13 @@
 import Aboutus from "../Aboutus";
 import Contactus from "../Contactus";
 import Home from "../Home";
+import Login from "../Homecomponets/Login";
+import Whoami from "../Homecomponets/Whoami";
 import Kingstv from "../Kingstv";
 import Pagenotfound from "../Pagenotfound";
 
 import Programs from "../Programs";
+import Register from "../Register";
 import Services from "../Services";
 
 
@@ -71,7 +74,7 @@ let routings = [
   {
     path: "/entertainment",
     pathName: "Entertainment and Recreation   ",
-    element:<Entartainment></Entartainment>,
+    element:<Entartainment></Entartainment>
   },
   {
     path: "/tech_world",
@@ -88,8 +91,20 @@ let routings = [
     pathName: "Education ",
     element:<Education></Education>
   },
-  
+  {
+    path:"/register", 
+    element:<Register></Register>
+  },
+  {
+    path:"/reg", 
+    element:<Whoami></Whoami>
+  },
+  {
+    path:"/login",
+    element:<Login></Login>
 
+  }
+,
   {
     path: "*",
     element: <Pagenotfound></Pagenotfound>,

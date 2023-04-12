@@ -56,7 +56,7 @@ function Home() {
           <SecondHome
             image={i3b}
             card={card4}
-            link={"https://www.my-lifequest.com/login"}
+            link={"/register"}
           ></SecondHome>
           <SecondHome
             image={i2b}
